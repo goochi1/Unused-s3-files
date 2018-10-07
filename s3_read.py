@@ -4,7 +4,6 @@ import time
 import argparse
 from dateutil.tz import tzutc
 from datetime import datetime, timedelta
-#bucket  = 'sgooch-terraform'
 
 parser = argparse.ArgumentParser(description='Base for cross account reader.')
 parser.add_argument('-profile', required=True, help='name of profile in config file')
